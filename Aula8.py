@@ -1,7 +1,7 @@
 #Cada arquivo .py é um módulo em Python
 #Ex: no Pythom console digite:
 #import Aula7, e ele executa tudo do módulo Aula7.py
-#Outra forma é importar exatamente o que precis////////////////////////////a de dentro do módulo
+#Outra forma é importar exatamente o que precisa de dentro do módulo
 #Exemplo: from Aula7 import Televisao
 
 from Aula7 import Televisao

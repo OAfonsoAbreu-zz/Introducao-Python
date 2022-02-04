@@ -18,7 +18,7 @@ def trabalhando_com_time():
     print(horario)
     print(type(horario))
     horario_format = horario.strftime('%H : %M : %S')
-    print(horario_format)
+    print(horario_format) # %H -> horas | %M -> minutos | %S -> segundos
     print(type(horario_format))
 
 def trabalhando_com_datetime():

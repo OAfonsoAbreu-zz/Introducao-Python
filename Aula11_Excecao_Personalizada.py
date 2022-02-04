@@ -18,6 +18,6 @@ while True:
             raise InputError('Nota não pode ser menor que 0.')
         break #Força saida do looping
     except ValueError:
-        print('Valor inválid. Deve-se sigitar apenas números.')
+        print('Valor inválido. Deve-se digitar apenas números.')
     except InputError as ex:
         print(ex)

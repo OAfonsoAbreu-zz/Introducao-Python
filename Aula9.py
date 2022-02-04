@@ -34,15 +34,17 @@ def media_notas(nome_arquivo):
 
     lista_medias = []
 
-    aluno_nota = aluno_nota.split('\n')
+    aluno_nota = aluno_nota.split('\n') #Separar string em lista (separa no caracter informado)
     for aluno in aluno_nota:
         notas = aluno.split(',')
         nome_aluno = notas[0]
         notas.pop(0)
 
+        #Retorna uma lista de int (for dentro dos []), faz uma somatoria da lista de int
+        #e divide pela quantidade de notas (len)
         media = lambda notas: sum([int(i) for i in notas])/len(notas)
 
-        lista_medias.append({nome_aluno:media(notas)})
+        lista_medias.append({nome_aluno:media(notas)}) #Chama a função lambda criada dentro de 'media'
 
     return lista_medias
 

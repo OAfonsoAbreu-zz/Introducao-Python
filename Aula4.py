@@ -1,11 +1,11 @@
 # #Uso do repeticao for
 # #Uso do range para gerar uma sequencia de numeros baseado em zero
-# #Pode iniciar em outro numero usando o renge(5, 100)
+# #Pode iniciar em outro numero usando o range(5, 100)
 # #Neste caso inicia em 5 e vai até 99
 # for x in range(101):
 #     print(x)
 
-# #Uso fo for com if
+# #Uso do for com if
 # a = int(input('Digite um numero e saiba se ele é primo: '))
 # div = 0
 # for x in range(1, a+1):

@@ -1,0 +1,4 @@
+Rafael,10,10,5,5
+Felipe,7,8,9,5
+Afonso,10,8,9,10
+Henrique,8,8,10,10

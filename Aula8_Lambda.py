@@ -21,6 +21,7 @@ calculadora = {
 }
 print(type(calculadora))
 
+#Usando o dicionario de função lambda
 soma = calculadora['Soma']
 mult = calculadora['Mult']
 

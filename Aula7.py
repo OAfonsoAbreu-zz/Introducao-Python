@@ -58,7 +58,7 @@ class Calculadora2:
         return valor_a / valor_b
 
 if __name__ == '__main__':
-    calculador2 = Calculadora2()
+    calculador2 = Calculadora2() #Instanciar uma classe
     print('Soma (Classe2): {}'.format(calculador2.soma(1,2)))
     print('Subtração (Classe2): {}'.format(calculador2.subtracao(2,1)))
     print('Multiplicação (Classe2): {}'.format(calculador2.multiplicacao(3,6)))

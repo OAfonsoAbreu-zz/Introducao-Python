@@ -1,3 +1,4 @@
+#Leitura de valor digitado
 # a = int(input('Primeiro valor: '))
 # b = int(input('Segundo valor: '))
 # c = int(input('Terceiro valor: '))
@@ -20,7 +21,7 @@
 # d = int(input('Primeio valor: '))
 # e = int(input('Segundo valor: '))
 #
-# resto_d = d % 2
+# resto_d = d % 2 #resto de uma divisão (mod)
 # resto_e = e % 2
 #
 # if resto_d == 0 or not resto_e > 0:
